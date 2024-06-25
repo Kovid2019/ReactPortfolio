@@ -368,7 +368,11 @@ footer .top ul li {
   .menu .navigation {
     line-height: 2.5rem;
   }
-  #hamburgerMenu:checked + .menu {
+  /* #hamburgerMenu:checked + .menu {
+    left: calc(100vw - 250px);
+  } */
+  .slide {
+    /* left: calc(100vw-250px);  Even space creates error sometimes*/
     left: calc(100vw - 250px);
   }
   .hero {
