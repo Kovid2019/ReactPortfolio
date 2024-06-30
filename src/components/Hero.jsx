@@ -2,7 +2,7 @@ import React from "react";
 import a1 from "../assets/a1.png";
 export const Hero = () => {
   return (
-    <div>
+    <>
       <section className="hero-section container" id="hero">
         <div className="grid hero">
           <div className="left flex">
@@ -56,6 +56,6 @@ export const Hero = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
